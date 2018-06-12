@@ -22,9 +22,9 @@
 		"fieldName"		"TitleGradient"
 		"xpos"		"3"
 		"ypos"		"0"
-		"wide"		"f0"
+		"wide"		"0"
 		"tall"		"60"
-		"zpos"	"98"
+		"zpos"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"rotation"		"3"
@@ -77,39 +77,63 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"24"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"labelText"		">"
-		"textAlignment"	"east"
+		"textinsetx"		"1000"
+		"textinsety"		"1000"
+		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedFgColor_override"	"blank"
+		"FgColor_override"	"blank"
+		
+		"image_drawcolor"	"245 245 245 60"
+		"image_armedcolor"	"245 245 245 180"
+		"image_disabledcolor"	"236 236 236 0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"cs-0.5"
+			"proportionaltoparent"			"1"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/softicons/forward"
+		}
 	}
 
 	"ReturnButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"20"
+		"wide"			"24"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
+		"textinsetx"		"1000"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
@@ -117,6 +141,26 @@
 		"defaultBgColor_override"	"0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
+		
+		"image_drawcolor"	"245 245 245 60"
+		"image_armedcolor"	"245 245 245 180"
+		"image_disabledcolor"	"236 236 236 0"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"cs-0.5"
+			"proportionaltoparent"			"1"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/softicons/forward"
+		}
 	}
 	
 	"BGPanel"
@@ -132,5 +176,20 @@
 		"proportionaltoparent"	"1"
 
 		"bgcolor_override"		"collyhuddarkgray"
+	}
+	"DashboardDimmer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DashboardDimmer"
+		"xpos"			"9999"i
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"border"		"noborder"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
 	}
 }

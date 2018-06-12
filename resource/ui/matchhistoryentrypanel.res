@@ -201,7 +201,7 @@
 				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"40"
-				"image"			"training\gradient_black"
+				"image"			"replay\thumbnails\bg_blank"
 				"proportionaltoparent"	"1"	
 				"rotation"		"1"
 			}

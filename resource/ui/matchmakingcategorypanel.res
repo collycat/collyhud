@@ -9,7 +9,7 @@
 		"tall"					"50"
 		"proportionaltoparent"	"1"
 
-		"collapsed_height"	"57"
+		"collapsed_height"	"60"
 		"resize_time"	"0.2"
 	
 	}
@@ -21,7 +21,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"p1.17"
 		"visible"		"1"
 		"enabled"		"1"
@@ -42,6 +42,38 @@
 		
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 0"
+		}
+		"FGColor"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"FGColor"
+			"xpos"			"60"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"60"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled"	"0"
+		
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"collyhuddarkgray"
+		}
+		"FGColor2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"FGColor2"
+			"xpos"			"60"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"60"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled"	"0"
+		
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"0 0 0 165"
 		}
 
 		"BGImage"
@@ -75,15 +107,14 @@
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
 			"font"	"product8"
-			"textinsetx"	"0"
+			"textinsetx"	"20"
 
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
+			"defaultBgColor_override"	"255 255 255 16"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
 			"selectedBGColor_override" "Orange"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
@@ -190,7 +221,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		blank
+			"fgcolor_override"		"blank"
 		}
 
 		"DescLabel"
@@ -234,7 +265,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" blank
+			"fgcolor_override" "blank"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -269,7 +300,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"noborder"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"

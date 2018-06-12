@@ -1,27 +1,44 @@
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
+	
+	"GrayBg"
+	{
+		"ControlName"	"editablepanel"
+		"fieldName"		"GrayBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"tall"			"f0"
+		"wide"			"f0"
+		"bgcolor_override"	"collyhuddarkgray"
+
+	}
+	
 	"EventEntry"
 	{
 		"ControlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
 		"ypos"			"3"
+		"zpos"			"3"
 		"tall"			"45"
-		"wide"			"255"
+		"wide"			"f0"
 		"proportionaltoparent"	"1"
 
 		"button_command"	"play_event"
 	}
 
+	
 	"CasualEntry"
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
-		"xpos"			"0"
-		"ypos"			"3"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
+		"xpos"			"r496"
+		"ypos"			"4"
+		"zpos"			"3"
+		"tall"			"66"
+		"wide"			"120"
+		"proportionaltoparent"	"0"
 
 		"image_name"		"main_menu/main_menu_button_casual"
 		"button_token"		"#MMenu_PlayList_Casual_Button"
@@ -39,11 +56,12 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"0"
-		"ypos"			"53"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
+		"xpos"			"r372"
+		"ypos"			"4"
+		"zpos"			"3"
+		"tall"			"66"
+		"wide"			"120"
+		"proportionaltoparent"	"0"
 
 		"image_name"		"main_menu/main_menu_button_competitive"
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
@@ -61,11 +79,12 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"0"
-		"ypos"			"103"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
+		"xpos"			"r248"
+		"ypos"			"4"
+		"zpos"			"3"
+		"tall"			"66"
+		"wide"			"120"
+		"proportionaltoparent"	"0"
 
 		"image_name"		"main_menu/main_menu_button_mvm"
 		"button_token"		"#MMenu_PlayList_MvM_Button"
@@ -83,10 +102,11 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"0"
-		"ypos"			"153"
-		"tall"			"45"
-		"wide"			"255"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"3"
+		"tall"			"240"
+		"wide"			"120"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_community_server"
@@ -104,10 +124,11 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
-		"xpos"			"0"
-		"ypos"			"203"
-		"tall"			"45"
-		"wide"			"255"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"3"
+		"tall"			"240"
+		"wide"			"120"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_training"
@@ -125,11 +146,12 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
-		"xpos"			"0"
-		"ypos"			"253"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
+		"xpos"			"r124"
+		"ypos"			"4"
+		"zpos"			"3"
+		"tall"			"66"
+		"wide"			"120"
+		"proportionaltoparent"	"0"
 
 		"image_name"		"main_menu/main_menu_button_custom_server"
 		"button_token"		"#MMenu_PlayList_CreateServer_Button"

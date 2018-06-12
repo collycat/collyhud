@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1000"
+		"zpos"			"-1000"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -94,64 +94,49 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"labelText"		">"
-
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"<"
-		}
-
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
-		"tall"			"f0"
+		"wide"			"24"
+		"tall"			"74"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-
-		"textAlignment"	"east"
+		"labelText"		">"
+		"textinsetx"		"1000"
+		"textinsety"		"1000"
+		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
-	}
-
-	"ReturnButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"labelText"		"<"
-
-		if_left
+		"armedFgColor_override"	"blank"
+		"FgColor_override"	"blank"
+		
+		"image_drawcolor"	"245 245 245 60"
+		"image_armedcolor"	"245 245 245 180"
+		"image_disabledcolor"	"236 236 236 0"
+		
+		"SubImage"
 		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"cs-0.5"
+			"proportionaltoparent"			"1"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/softicons/forward"
 		}
-
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"command"		"nav_to"
-		"labelText"		"<"
-
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-
-		"armedFgColor_override"	"Orange"
 	}
+
 	
 	"BGPanel"
 	{
@@ -161,7 +146,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f-20"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

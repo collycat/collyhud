@@ -6,9 +6,9 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"0"
-		"ypos"			"10"
+		"ypos"			"r74"
 		"zpos"			"1001"
-		"wide"			"280"
+		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -19,15 +19,15 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"20"
+		"ypos"		"8"
 		"zpos"		"99"
-		"wide"		"f0"
+		"auto_wide_tocontents"		"1"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"procutbold14"
+		"fgcolor_override"	"tanlight120"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -36,11 +36,11 @@
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
-		"xpos"			"8"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"F0"
-		"tall"			"365"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -56,7 +56,7 @@
 		"tall"			"F0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"noborder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -64,14 +64,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DashboardDimmer"
-		"xpos"			"9999"
+		"xpos"			"9999"i
 		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"InnerShadowBorder"
+		"border"		"noborder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
