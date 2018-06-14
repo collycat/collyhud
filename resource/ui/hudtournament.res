@@ -115,13 +115,13 @@
 				"fieldName"		"PortraitBG"
 				"xpos"			"3"
 				"ypos"			"5"
-				"zpos"			"13"
-				"wide"			"0"
-				"tall"			"0"
-				"alpha"			"205"
+				"zpos"			"-100"
+				"wide"			"f0"
+				"tall"			"f0"
+				"alpha"			"255"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"			"0 0 0 180"
+				"fillcolor"			"0 0 0 165"
 			}
 			
 			"classimagebg"
@@ -446,6 +446,7 @@
 		"labelText"		"%bluestate%"
 		"textAlignment"		"center"
 		"bgcolor"		"0 0 0 165"
+		"use_proportional_insets"	"1"
 		"bgcolor_override"		"0 0 0 165"
 		
 		if_readymode
@@ -493,6 +494,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		"use_proportional_insets"	"1"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
 	
@@ -520,6 +522,7 @@
 		"textinsety"		"3"
 		"labelText"		"%redstate%"
 		"textAlignment"		"center"
+		"use_proportional_insets"	"1"
 		"bgcolor"		"0 0 0 165"
 		"bgcolor_override"		"0 0 0 165"
 	

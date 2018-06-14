@@ -157,7 +157,7 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"0 0 0 165"
+		"TanDark"				"245 245 245 60"
 		"TanLight"				"245 245 245 235"
 		
 		
@@ -291,7 +291,7 @@ Scheme
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
-		ReplayBrowser.Search.BgColor						"TanDark"
+		ReplayBrowser.Search.BgColor						"0 0 0 165"
 		ReplayBrowser.Search.FgColor						"White"
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
@@ -317,7 +317,7 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"245 245 245 60"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"0 0 0 165"
 		Button.ArmedTextColor			"tanlight"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"

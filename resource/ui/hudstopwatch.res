@@ -4,17 +4,17 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"0"
+		"xpos"			"70"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"140"
+		"wide"			"0"
 		"tall"			"20"
 		"autoResize"		"0"
-		"pinCorner"		"0"
+		"pinCorner"		"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"	"blurborder"
-		"bgcolor"	"blank"
+		"border"	"noborder"
+		"fillcolor"	"0 0 0 0"
 	}
 
 	"StopWatchImageCaptureTime"
@@ -28,13 +28,14 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"0"
+		"xpos"				"26"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"5"
-		"wide"				"110"
+		"wide"				"70"
 		"tall"				"20"
 		"visible"			"0"
 		"enabled"			"1"
+		
 
 		"TimePanelValue"
 		{
@@ -42,15 +43,19 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"productbold14"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"44"
+			"bgcolor_override"			"0 0 0 165"
+			"useproportionaltextinsets"			"1"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-		}	
+			
+		}
+			
 	}
 
 	"StopWatchScoreToBeat"
@@ -59,21 +64,17 @@
 		"fieldName"		"StopWatchScoreToBeat"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"6"
 		"zpos"			"4"
-		"wide"			"93"
+		"wide"			"0"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 
-		if_comp
-		{
-			"ypos"	"21"
-		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -81,12 +82,13 @@
 		"fieldName"		"StopWatchPointsLabel"
 		"font"			"productbold14"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"west"
-		"xpos"			"6"
+		"textAlignment"		"east"
+		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"120"
+		"wide"			"14"
 		"tall"			"20"
+		"bgcolor_override"			"0 0 0 165"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -98,24 +100,22 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"HudFontSmallest"
+		"font"			"PRODUCT8"
 		"labelText"		"%stopwatchlabel%"
-		"textAlignment"		"west"
-		"xpos"			"25"
-		"ypos"			"5"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"90"
-		"tall"			"30"
+		"wide"			"0"
+		"bgcolor"			"0 0 0 165"
+		"bgcolor_override"			"0 0 0 165"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 
-		if_comp
-		{
-			"ypos"	"20"
-		}
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -131,42 +131,27 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"
+	
 
-
-		"src_corner_height"	"2"				// pixels inside the image
-		"src_corner_width"	"2"
-		
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
-
-		if_comp
-		{
-			"ypos"	"42"
-		}
 	}
 
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"ClockSubTextTiny"
+		"font"			"PRODUCT8"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"west"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"125"
+		"wide"			"0"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 
-		if_comp
-		{
-			"ypos"	"38"
-		}
 	}
 }

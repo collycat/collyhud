@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r260"
 		"zpos"			"1002"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"f220"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -20,23 +20,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1001"
-		"tall"			"f74"
+		"tall"			"f0"
 		"wide"			"f0"
 		"bgcolor_override"	"collyhuddarkgray"
 
 	}
-	"epiccover"
-	{
-		"ControlName"	"editablepanel"
-		"fieldName"		"epiccover"
-		"xpos"			"0"
-		"ypos"			"r74"
-		"zpos"			"1001"
-		"tall"			"f74"
-		"wide"			"f0"
-		"bgcolor_override"	"0 0 0 165"
-
-	}
+	
 	"Title"
 	{
 		"ControlName"		"Label"
@@ -59,11 +48,11 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"4"
+		"xpos"			"28"
 		"ypos"			"4"
 		"zpos"			"1003"
-		"wide"			"f8"
-		"tall"			"f82"
+		"wide"			"f32"
+		"tall"			"f32"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -89,10 +78,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"r54"
-		"ypos"			"24"
+		"xpos"			"r58"
+		"ypos"			"r24"
 		"zpos"			"1004"
-		"wide"			"50"
+		"wide"			"55"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"

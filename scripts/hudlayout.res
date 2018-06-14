@@ -1108,7 +1108,7 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c28"
+		"xpos"					"r76"
 		"ypos"					"6"
 		"wide"					"70"
 		"tall"					"20"
