@@ -113,9 +113,9 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"PortraitBG"
-				"xpos"			"3"
-				"ypos"			"5"
-				"zpos"			"-100"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1000"
 				"wide"			"f0"
 				"tall"			"f0"
 				"alpha"			"255"
